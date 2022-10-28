@@ -11,22 +11,22 @@
     </head>
     <body>
         <div class="container-fluid">
-            <div class="row">
-                <header class="col-12 col-sm-12 col-md-12 col-lg-12 col-xd-12">
-                    <h1 class="titulo">CineTTI</h1>
+            <div class="row ">
+                <header class="col-12 col-sm-12 col-md-12 col-lg-12 col-xd-12 ">
+                    <h1 class="titulo d-sm-none d-md-block d-none d-sm-block">CineTTI - São Paulo</h1>
                     <div class="busca">
                         <img src="/atividade-cinema/img/search.svg" alt="" class="busca--img">
-                        <input type="text" name="" id="">
+                        <input type="text" name="" id="busca">
                     </div>
                     <ul class="nav nav-tabs">                       
                         <li class="nav-item">
-                          <a class="nav-link" href="/atividade-cinema/index.html">Home</a>
+                          <a class="nav-link" id="dropdown-item" href="/atividade-cinema/index.html">Home</a>
                         </li>
                         <li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Cidades</a>
                           <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/atividade-cinema/sp.html">São Paulo</a></li>
-                            <li><a class="dropdown-item" href="/atividade-cinema/rj.html">Rio de Janeiro</a></li>
+                            <li><a class="dropdown-item" id="dropdown-item" href="/atividade-cinema/sp.html">São Paulo</a></li>
+                            <li><a class="dropdown-item" id="dropdown-item" href="/atividade-cinema/rj.html">Rio de Janeiro</a></li>
                           </ul>
                         </li>
                     </ul>
@@ -35,94 +35,137 @@
         </div>
 
         <main class="col-6 col-sm-12 col-md-12 col-lg-12 col-xd-12">
-            <div class="row card__cabecalho">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0 card-corpo">
-                      <div class="col-md-4">
-                        <img src="/atividade-cinema/img/one-piece-red-poster2jpg.jpg" class="img-fluid rounded-start" alt="...">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">One Piece Filme Red</h5>
-                          <p class="card-text">
-                            <small class="text-muted">
-                                <div class="btn-group" role="group" aria-label="Basic outlined example">
-                                    <button type="button" class="btn btn-outline-primary">Middle</button>
-                                    <button type="button" class="btn btn-outline-primary">Right</button>
-                                </div>
-                            </small>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
+            <div class="cabecalho">
+                <div class="row card__cabecalho">
+                    <h1>ONE PIECE FILM: RED</h1>  
                 </div>
             </div>
 
-            <div class="row">
-                <div class="sinopse">
+            <div class="row sinopse">
+                <div class="sinopse-descricao">
                     <h2>Leia a sinopse</h2>
-                    <p>Em ONE PIECE FILM RED todos conhecerão Uta, a cantora mais amada do planeta, cuja voz foi descrita como "de outro mundo". Ela é conhecida por esconder sua própria identidade ao se apresentar. Agora, pela primeira vez, Uta se revelará ao mundo em um show ao vivo. Com a Marinha assistindo de perto, o local se enche de fãs de Uta - incluindo piratas animados e os Chapéus de Palha liderados por Luffy, que vieram para curtir sua performance - todos aguardam ansiosamente a voz que o mundo inteiro estava esperando. A história começa com a chocante revelação de que ela é a enigmática filha de Shanks. Classificação indicativa 12 anos, contém violência, drogas lícitas e linguagem imprópria.</p>
+                    <div class="sinopse-descricao2">
+                        <div class="sinopse-descricao3">
+                            <p>Em ONE PIECE FILM RED todos conhecerão Uta, a cantora mais amada do planeta, cuja voz foi descrita como "de outro mundo". Ela é conhecida por esconder sua própria identidade ao se apresentar. Agora, pela primeira vez, Uta se revelará ao mundo em um show ao vivo. Com a Marinha assistindo de perto, o local se enche de fãs de Uta - incluindo piratas animados e os Chapéus de Palha liderados por Luffy, que vieram para curtir sua performance - todos aguardam ansiosamente a voz que o mundo inteiro estava esperando. A história começa com a chocante revelação de que ela é a enigmática filha de Shanks. Classificação indicativa 12 anos, contém violência, drogas lícitas e linguagem imprópria.</p>
+                            <div class="row justify-content-left informacoes-principal">
+                                <div class="informacoes">
+                                    <div class="card-group container text-center">
+                                        <div class="row justify-content-center">
+                                            <div class="card-body card__informacoes">
+                                                <h5 class="card-title card-title__titulo">Elenco:</h5>
+                                                <p class="card-text card-title__texto">Chô (narração), Hiroaki Hirata (narração).</p>
+                                            </div>        
+                                            
+                                            <div class="card-body card__informacoes">
+                                                <h5 class="card-title card-title__titulo">Diretor:</h5>
+                                                <p class="card-text card-title__texto">Gorô Taniguchi</p>
+                                            </div>        
+                                            
+                                            <div class="card-body card__informacoes">
+                                                <h5 class="card-title card-title__titulo">Gênero:</h5>
+                                                <p class="card-text card-title__texto">Animação</p>
+                                            </div>        
+                                        </div>
+                                        
+                                        <div class="row justify-content-center">
+                                            <div class="card-body card__informacoes">
+                                                <h5 class="card-title card-title__titulo">Duração:</h5>
+                                                <p class="card-text card-title__texto">115 min</p>
+                                            </div>        
+                        
+                                            <div class="card-body card__informacoes">
+                                                <h5 class="card-title card-title__titulo">Distribuidora:</h5>
+                                                <p class="card-text card-title__texto">Diamond Filmes</p>
+                                            </div>        
+                        
+                                            <div class="card-body card__informacoes">
+                                                <h5 class="card-title card-title__titulo">Classificação:</h5>
+                                                <p class="card-text card-title__texto">12 Anos</p>
+                                            </div>        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
-
-        <div class="row justify-content-center">
-            <div class="informacoes">
-                <div class="card-group container text-center">
-                    <div class="row justify-content-center">
-                        <div class="card-body card__informacoes">
-                            <h5 class="card-title">Elenco</h5>
-                            <p class="card-text">Chô (narração), Hiroaki Hirata (narração), Shûichi Ikeda (narração).</p>
-                        </div>        
-                        
-                        <div class="card-body card__informacoes">
-                            <h5 class="card-title">Diretor</h5>
-                            <p class="card-text">Gorô Taniguchi</p>
-                        </div>        
-                        
-                        <div class="card-body card__informacoes">
-                            <h5 class="card-title">Gênero</h5>
-                            <p class="card-text">Animação</p>
-                        </div>        
-                    </div>
-                    
-                    <div class="row justify-content-center">
-                        <div class="card-body card__informacoes">
-                            <h5 class="card-title">Duração</h5>
-                            <p class="card-text">115 min</p>
-                        </div>        
-    
-                        <div class="card-body card__informacoes">
-                            <h5 class="card-title">Distribuidora</h5>
-                            <p class="card-text">Diamond Filmes</p>
-                        </div>        
-    
-                        <div class="card-body card__informacoes">
-                            <h5 class="card-title">Classificação</h5>
-                            <p class="card-text">12 Anos</p>
-                        </div>        
-                    </div>
+        <hr>
+        <div class="container horarios-filme">
+            <div class="sao-paulo">
+                <div class="row">
+                  <div class="col-9"><h5 class="titulo-horario">Horarios Disponiveis São Paulo:</h5></div>
+                  <div class="col-4">
+                    <h6 class="nome-shopping">Shopping Eldorado</h6>
+                    <p class="texto-shopping">Sala 03</p>
+                    <p class="texto-shopping">20:00</p>     
+                  </div>
+                  <div class="col-6">
+                    <button class="btn btn-primary btn-ingresso" type="button">Preços</button>
+                    <button class="btn btn-primary btn-ingresso" type="button">Comprar Ingresso</button>
+                  </div>
+                  <hr class="separar-item">
+                  <div class="col-4">
+                    <h6 class="nome-shopping">Shopping Ibirapuera</h6>
+                    <p class="texto-shopping">Sala 11</p>
+                    <p class="texto-shopping">22:00</p>     
+                  </div>
+                  <div class="col-6">
+                    <button class="btn btn-primary btn-ingresso" type="button">Preços</button>
+                    <button class="btn btn-primary btn-ingresso" type="button">Comprar Ingresso</button>
+                  </div>
+                  <hr class="separar-item">
+                  <div class="col-4">
+                    <h6 class="nome-shopping">Shopping Campo Limpo</h6>
+                    <p class="texto-shopping">Sala 01</p>
+                    <p class="texto-shopping">15:00</p>     
+                  </div>
+                  <div class="col-6">
+                    <button class="btn btn-primary btn-ingresso" type="button">Preços</button>
+                    <button class="btn btn-primary btn-ingresso" type="button">Comprar Ingresso</button>
+                  </div>
                 </div>
             </div>
         </div>
-        
-        <div class="row">
-            <ul class="nav nav-pills nav-fill">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Active</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Much longer nav link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Much longer nav link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Much longer nav link</a>
-                </li>
-            </ul>
+       
+        <div class="container horarios-filme">
+            <div class="rio-janeiro">
+                <div class="row">
+                  <div class="col-9 "><h5 class="titulo-horario">Horarios Disponiveis Rio de Janeiro:</h5></div>
+                  <div class="col-4">
+                    <h6 class="nome-shopping">Shopping VillageMall</h6>
+                    <p class="texto-shopping">Sala 04</p>
+                    <p class="texto-shopping">21:30</p>     
+                  </div>
+                  <div class="col-6">
+                    <button class="btn btn-primary btn-ingresso" type="button">Preços</button>
+                    <button class="btn btn-primary btn-ingresso" type="button">Comprar Ingresso</button>
+                  </div>
+                  <hr class="separar-item">
+                  <div class="col-4">
+                    <h6 class="nome-shopping">Shopping Gávea</h6>
+                    <p class="texto-shopping">Sala 10</p>
+                    <p class="texto-shopping">17:00</p>     
+                  </div>
+                  <div class="col-6">
+                    <button class="btn btn-primary btn-ingresso" type="button">Preços</button>
+                    <button class="btn btn-primary btn-ingresso" type="button">Comprar Ingresso</button>
+                  </div>
+                  <hr class="separar-item">
+                  <div class="col-4">
+                    <h6 class="nome-shopping">Botafogo Praia Shopping</h6>
+                    <p class="texto-shopping">Sala 07</p>
+                    <p class="texto-shopping">14:00</p>     
+                  </div>
+                  <div class="col-6">
+                    <button class="btn btn-primary btn-ingresso" type="button">Preços</button>
+                    <button class="btn btn-primary btn-ingresso" type="button">Comprar Ingresso</button>
+                  </div>
+                </div>
+            </div>
         </div>
-
+        <hr>
         <div class="row">
             <footer class="col-12 col-sm-12 col-md-12 col-lg-12 col-xd-12">
                 <h1>CineTTI</h1>

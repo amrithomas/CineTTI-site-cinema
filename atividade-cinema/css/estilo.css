@@ -12,6 +12,16 @@ header {
     border-bottom: 2px solid white;
 }
 
+.row>* {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.w-100 {
+    width: 75%!important;
+    margin: 0 auto;
+}
+
 .titulo {
     color: white;
     font-family: 'Bebas Neue', 'sans-seriff';
@@ -32,6 +42,10 @@ header {
     border-radius: 10px;
 }
 
+.nav-link {
+    font-size: 22px;
+}
+
 .busca input {
     width: 300px;
     margin-left: 0.5em;
@@ -42,6 +56,7 @@ header {
     width: 16px;
     height: 16px;
     margin-left: 0.5em;
+    margin-top: 1em;
 }
 
 .nav-link {

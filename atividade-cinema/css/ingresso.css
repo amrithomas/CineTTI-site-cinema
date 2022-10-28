@@ -12,6 +12,22 @@ header {
     border-bottom: 2px solid white;
 }
 
+.row>* {
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.w-100 {
+    width: 75%!important;
+    margin: 0 auto;
+}
+
+.nav-link {
+    font-size: 22px;
+}
+
+
 .titulo {
     color: white;
     font-family: 'Bebas Neue', 'sans-seriff';
@@ -26,6 +42,7 @@ header {
 .busca {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: white;
     width: 350px;
     height: 50px;
@@ -35,6 +52,10 @@ header {
 .busca input {
     width: 300px;
     margin-left: 0.5em;
+    border: none;
+}
+
+#busca:active {
     border: none;
 }
 
@@ -54,25 +75,127 @@ header {
     background-color: rgba(0, 0, 0, 0.616);  
 }
 
-.card__cabecalho {
+
+.cabecalho {
     background: linear-gradient(#e66465, rgba(255, 4, 4, 0.295));
+
+}
+
+
+
+.card__cabecalho h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Bebas Neue', 'sans-seriff';
+    font-size: 65px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.sinopse {
+    margin-top: 3em; 
+}
+
+.sinopse-descricao2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sinopse-descricao3 {
+    width: 60%;
+}
+
+#one-piece-img {
+    width: 15%;
+    height: 15%;
+    margin-right: 20em;
+    margin-left: 10em;
+}
+
+.sinopse-descricao h2 {
+    color: red;
+    font-family: 'Bebas Neue', 'sans-seriff';
+    font-size: 48px;
+    font-weight:bold;
+    margin-left: 1em;
+}
+
+
+.sinopse-descricao p {
+    color: white;  
+    font-size: 16px;
+    margin-left: 1em;   
+}
+
+.card-group {
+    margin: 0 auto;
+    justify-content: left;
+    align-items: center;
+}
+
+
+.informacoes {
+
+    margin: 0;
+    display: flex;
 }
 
 .card__informacoes {
-    margin-top: 3em;
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
 }
 
-h5 {
+.card-title__titulo {
+    color: rgb(255, 0, 0);
+    font-family: 'Bebas Neue', 'sans-seriff';
+    font-size: 16px;
+    font-weight:500;
+    margin-left: 1em;
+}
+
+.card-title__texto {
+    color: white;
+    font-size: 12px;
+    margin-left: 1em;
+}
+
+.horarios.filme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-horario {
     color: white;
     font-family: 'Bebas Neue', 'sans-seriff';
-    font-size: 26px;
-    font-weight:500;
+    font-size: 38px;
+    font-weight:bold;
+    margin-top: 1em;
 }
 
-p {
+.nome-shopping {
+    color: white;
+    font-size: 30px;
+    font-family: 'Bebas Neue', 'sans-seriff';
+    font-weight: 500;
+    margin-top: 1em;
+}
+
+.texto-shopping {
+    color: rgb(255, 0, 0);
+    font-size: 22px;
+    font-family: 'Bebas Neue', 'sans-seriff';
+}
+
+.btn-ingresso {
+    margin-top: 2em;
+    margin-left: 1em;
+}
+
+h6 {
     color: white;
 }
-
 
 footer {
     display: flex;
@@ -86,4 +209,13 @@ footer h1 {
     font-family: 'Bebas Neue', 'sans-seriff';
     font-size: 54px;
     margin-top: 1em;
+}
+
+hr {
+    border: 4px solid white;
+}
+
+.separar-item {
+    border: 4px solid white;
+    width: 70%;
 }

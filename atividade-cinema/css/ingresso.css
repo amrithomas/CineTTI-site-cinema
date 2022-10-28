@@ -49,9 +49,29 @@ header {
     border: none;
 }
 
+.card {
+    margin: 6em auto;
+    background-color: rgba(0, 0, 0, 0.616);  
+}
 
+.card__cabecalho {
+    background: linear-gradient(#e66465, rgba(255, 4, 4, 0.295));
+}
 
+.card__informacoes {
+    margin-top: 3em;
+}
 
+h5 {
+    color: white;
+    font-family: 'Bebas Neue', 'sans-seriff';
+    font-size: 26px;
+    font-weight:500;
+}
+
+p {
+    color: white;
+}
 
 
 footer {

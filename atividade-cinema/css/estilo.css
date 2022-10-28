@@ -68,7 +68,6 @@ header {
     flex-direction: row;
     margin-top: 2em;
     margin-bottom: 1em;
-    border-bottom: 2px solid white;
 }
 
 .card-secao h2 {

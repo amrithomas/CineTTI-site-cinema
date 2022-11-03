@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CineTTI</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="/atividade-cinema/css/estilo.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <header class="col-12 col-sm-12 col-md-12 col-lg-12 col-xd-12">
+                    <h1 class="titulo d-sm-none d-md-block d-none d-sm-block">CineTTI</h1>
+                    <div class="busca d-sm-none d-md-block d-none d-sm-block">
+                        <img src="/atividade-cinema/img/search.svg" alt="" class="busca--img">
+                        <input type="text" name="" id="">
+                    </div>
+                    <ul class="nav nav-tabs">                       
+                        <li class="nav-item">
+                          <a class="nav-link" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Cidades</a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/sp.html">São Paulo</a></li>
+                            <li><a class="dropdown-item" href="/rj.html">Rio de Janeiro</a></li>
+                          </ul>
+                        </li>
+                    </ul>
+                </header>
+            </div>
+
+            <main class="col-12 col-sm-12 col-md-12 col-lg-12 col-xd-12">
+                <div class="row">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="/atividade-cinema/img/adao-negro-capa.webp" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Adão Negro</h5>
+                              <p>Somente nos cinemas.</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="/atividade-cinema/img/one-piece-red-film.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>One Piece: Red</h5>
+                              <p>Em breve nos cinemas.</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="/atividade-cinema/img/minions2.webp" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Minions 2</h5>
+                              <p>Disponivel nos cinemas.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+                <section class="card-secao row justify-content-center">
+                    <h2>Filmes em cartaz São Paulo</h2>
+                    <p class="link-filmes">
+                        <a href="/atividade-cinema/sp.html">Ver tudo</a>
+                    </p>
+                    <div class="card" style="width: 18rem;">
+                        <img src="/atividade-cinema/img/poster-adao-negro.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Adão Negro</h5>
+                            <p class="card-text">Adão Negro é o filme solo do anti-herói, baseado no personagem em quadrinhos Black Adam (Dwayne Johnson) da DC Comics, grande antagonista de Shazam!</p>
+                            <a href="#" class="btn btn-primary">Ver mais...</a>
+                        </div>
+                    </div>
+                        
+                    <div class="card" style="width: 18rem;">
+                        <img src="/atividade-cinema/img/caca-implacavel-poster.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Caça Implacavel</h5>
+                            <p class="card-text"> Quando param o carro em um posto de gasolina próximo à casa de Lisa, ela desaparece misteriosamente. Desesperado, Will recorre à polícia, mas não recebe apoio e ainda se torna o principal suspeito do caso.</p>
+                            <a href="#" class="btn btn-primary">Ver mais...</a>
+                        </div>
+                    </div>
+                    
+                    <div class="card" style="width: 18rem;">
+                        <img src="/atividade-cinema/img/halloween-ends-poster.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Halloween Ends</h5>
+                            <p class="card-text">Em Halloween Ends, quatro anos após os eventos de Halloween Kills: O Terror Continua (2021), Laurie (Jamie Lee Curtis) agora vive com sua neta Allyson e está terminando seu livro de memórias. Michael Myers nunca mais foi visto.</p>
+                            <a href="#" class="btn btn-primary">Ver mais...</a>
+                        </div>
+                    </div>
+                 
+                </section>
+                
+                <section class="card-secao row justify-content-center">
+                    <h2>Filmes em cartaz Rio de Janeiro</h2>
+                    <p class="link-filmes">
+                        <a href="/atividade-cinema/rj.html">Ver tudo</a>
+                    </p>
+                    <div class="card" style="width: 18rem;">
+                        <img src="/atividade-cinema/img/mulher-rei-poster.jfif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">A Mulher Rei</h5>
+                            <p class="card-text">A Mulher Rei é uma história memorável da Agojie, uma unidade de guerreiras composta apenas por mulheres que protegiam o reino africano de Dahomey nos anos 1800, com habilidades e uma força diferentes de tudo já visto. Inspirado em eventos reais.</p>
+                            <a href="#" class="btn btn-primary">Ver mais...</a>
+                        </div>
+                    </div>
+                        
+                    <div class="card" style="width: 18rem;">
+                        <img src="/atividade-cinema/img/orfa-2-poster.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Órfã 2: A Origem</h5>
+                            <p class="card-text">A origem da aterrorizante saga de Esther é apresentada neste prequel de A Órfã, sucesso de terror. ÓRFÃ 2: A ORIGEM conta a história de Leena Klammer (Isabelle Fuhrman), paciente que orquestra uma brilhante fuga de uma clínica psiquiátrica da Estônia e foge para os Estados Unidos.</p>
+                            <a href="#" class="btn btn-primary">Ver mais...</a>
+                        </div>
+                    </div>
+                    
+                    <div class="card" style="width: 18rem;">
+                        <img src="/atividade-cinema/img/luz-demonio-poster.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">A Luz do Demônio</h5>
+                            <p class="card-text">O longa narra a história da Irmã Ann, que é atormentada por um demônio desde a sua infância. Com a alta dos casos de possessões demoníacas, a Igreja Católica cria escolas de exorcismo destinadas somente para padres. Um professor enxerga potencial de Ann em expulsar demônios e decide ensiná-la a dominar o seu dom, a tornando a primeira freira exorcista.</p>
+                            <a href="#" class="btn btn-primary">Ver mais...</a>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="card-secao row justify-content-evenly">
+                    <h2 id="novidades">Novidades CineTTI</h2>
+                    <div class="row row-cols-1 row-cols-md-2 g-12">
+                        <div class="col">
+                          <div class="card">
+                            <img src="/atividade-cinema/img/popcorn-perdigão.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Chicken PopCorn Perdigão</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card">
+                            <img src="/atividade-cinema/img/pao-de-queijo.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Pão de Queijo</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card">
+                            <img src="/atividade-cinema/img/salas-xd.jpg.crdownload" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Salas XD</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card">
+                            <img src="/atividade-cinema/img/aluguel-salas.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Aluguel de salas</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </section>
+            </main>
+
+            <div class="row">
+                <footer class="col-12 col-sm-12 col-md-12 col-lg-12 col-xd-12">
+                    <h1>CineTTI</h1>
+                </footer>
+            </div>
+        </div>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="/atividade-cinema/js/main.js"></script>
+</html>
+
